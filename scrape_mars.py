@@ -31,7 +31,7 @@ def scrape_info():
     news_p = soup.find('div', class_='article_teaser_body').text
 
 # ##JPL Mars Space Images - Featured Image
-
+    #scrape the most recent article from nasa
     image_url = 'https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars'
     browser.visit(image_url)
     image_html = browser.html
@@ -42,6 +42,7 @@ def scrape_info():
     featured_image_url=nasa_url + edge
 
 # ## Mars Weather
+    #Scrape the most recent weather from twitter
     weather_url='https://twitter.com/marswxreport?lang=en'
     browser.visit(weather_url)
     time.sleep(5)
@@ -52,7 +53,7 @@ def scrape_info():
 
 
 # ## Mars Facts
-
+    #Scrape mars facts
     facts_url='https://space-facts.com/mars/'
     mars_facts=pd.read_html(facts_url)
     df = mars_facts[0]
@@ -63,7 +64,7 @@ def scrape_info():
 
 
 # ## Mars Hemispheres
-
+    #Set url to scrapa Mars imaes
     hemispheres_url='https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
     sleep(3)
     browser.visit(hemispheres_url)
