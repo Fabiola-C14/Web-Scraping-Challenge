@@ -19,7 +19,6 @@ MongoDB with Flask templating was used to create a HTML page that displays all o
 
 ![](images/img_1.PNG)
 ![](images/img_2.PNG)
-![](images/img_3.PNG)
 ![](images/img_4.PNG)
 ![](images/img_5.PNG)
 ![](images/img_6.PNG)
