@@ -16,6 +16,8 @@ For this project a Jupyter Notebook was created to scrape the following sites:
   
 MongoDB with Flask templating was used to create a HTML page that displays all of the information that was scraped from the URLs above.
 
+
+![](images/img_1.PNG)
 ![](images/img_2.PNG)
 ![](images/img_3.PNG)
 ![](images/img_4.PNG)
